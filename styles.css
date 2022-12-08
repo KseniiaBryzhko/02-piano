@@ -1,0 +1,41 @@
+/* налаштування видимої частини вікна браузера */
+
+body {
+  background: #37b2c3;
+  margin: 0;
+  padding: 0;
+}
+
+/* налаштування основного контейнера */
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+/* налаштування білих клавиш */
+
+.white-keys {
+  fill: white;
+}
+
+/* налаштування білих клавиш при наведенні вказівника миші*/
+
+a:hover .white-keys {
+  fill: #ffd200;
+}
+
+/* налаштування чорних клавиш */
+
+.black-keys {
+  fill: black;
+}
+
+/* налаштування чорних клавиш при наведенні вказівника миші*/
+
+a:hover .black-keys {
+  fill: #f40082;
+}
